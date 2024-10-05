@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121c3e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0044cc;
+}
+
+.weather-info {
+    background-color: #1c2a52;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.weather-info h2 {
+    margin: 0;
+}
+
+.weather-detail {
+    margin: 10px 0;
+}
+
+.weather-image img {
+    width: 100px;
+    height: 100px;
+}
+#life-index {
+    margin-top: 20px;
+}
+
+.index-item {
+    background-color: #f0f0f0;  /* 背景颜色 */
+    border: 1px solid #ddd;     /* 边框 */
+    border-radius: 8px;         /* 圆角 */
+    padding: 10px;              /* 内边距 */
+    margin: 10px 0;             /* 外边距 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* 阴影效果 */
+    text-align: left;           /* 整个项目左对齐 */
+}
+
+.index-title {
+    font-weight: bold;
+    font-size: 1.1em;     /* 标题字体大小 */
+    margin-bottom: 5px;   /* 标题与内容的间距 */
+}
+
+.index-content {
+    font-size: 0.9em;     /* 内容字体大小 */
+    margin-top: 5px;      /* 内容与标题的间距 */
+    color: #666;          /* 内容字体颜色 */
+}
